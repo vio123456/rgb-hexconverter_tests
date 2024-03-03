@@ -1,0 +1,9 @@
+@api_url =http://localhost:3000/api/v1
+GET {{api_url}}/
+
+###GET {{api_url}}/hex-to-rgb?hex=ffffff
+GET {{api_url}}/rgb-to-hex?red=0&green=25&blue=255
+
+###WGET {{api_url}}/rgb-to-hex?red=0&green=25&blue=255
+
+GET {{api_url}}/hex-to-rgb
